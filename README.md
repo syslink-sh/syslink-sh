@@ -1,16 +1,29 @@
-## Hi there 👋
+# 👋 Hey, I'm SySLink
 
-<!--
-**syslink-sh/syslink-sh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Developer building tools and systems with a focus on **performance**, **security**, and **simplicity**.  
+🚀 I love working on web tech, real-time apps, and backend systems.  
+🧠 Always exploring new ways to make things faster, cleaner, and smarter.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### ⚙️ Tech Stack
+
+#### 💻 Languages
+`JavaScript` `TypeScript` `Python` `C` `Bash`
+
+#### 🌐 Web / Backend
+`Node.js` `Express` `React` `Vite` `Socket.io`
+
+#### 🗄️ Databases & Tools
+`MongoDB` `Redis` `Docker` `Nginx` `Git`
+
+---
+
+### BEGIN STATS EVERYONE IGNORES
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=syslink&show_icons=true&theme=tokyonight" alt="syslink's GitHub stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=syslink&theme=tokyonight" width="48%" />
+</p>
+
+### END STATS EVERYONE IGNORES
