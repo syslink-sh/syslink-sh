@@ -1,7 +1,8 @@
 # hi, i'm syslink
 
-[![Press the button!](https://www.clker.com/cliparts/C/A/2/t/A/x/big-red-button.svg)](https://github.com/syslink-sh/syslink-sh/issues/new?title=click&body=press+create+to+register+your+click+.+dont+modify+the+issue+name+otherwise+it+wont+register!)
-
+<a href="https://github.com/syslink-sh/syslink-sh/issues/new?title=click&body=press+create+to+register+your+click+.+dont+modify+the+issue+name+otherwise+it+wont+register!">
+  <img src="https://www.clker.com/cliparts/C/A/2/t/A/x/big-red-button.svg" width="150">
+</a>
 
 CLICKS :
 
