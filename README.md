@@ -1,7 +1,7 @@
 # hi, i'm syslink
 
 <a href="https://github.com/syslink-sh/syslink-sh/issues/new?title=click&body=press+create+to+register+your+click+.+dont+modify+the+issue+name+otherwise+it+wont+register!">
-  <img src="https://www.clker.com/cliparts/C/A/2/t/A/x/big-red-button.svg" width="150">
+  <img src=https://e7.pngegg.com/pngimages/975/635/png-clipart-circle-design-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0-red-button.png" width="150">
 </a>
 
 CLICKS :
