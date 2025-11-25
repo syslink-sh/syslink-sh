@@ -1,4 +1,8 @@
-name: click_counter
+name: click-counter
+
+permissions:
+  issues: write
+  contents: write
 
 on:
   issues:
