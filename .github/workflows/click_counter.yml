@@ -1,0 +1,62 @@
+name: click_counter
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  count:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if issue should trigger click
+        id: check
+        run: |
+          TITLE="${{ github.event.issue.title }}"
+          BODY="${{ github.event.issue.body }}"
+          
+          if [[ "$TITLE" == "click" ]] && [[ "$BODY" == press* ]]; then
+            echo "match=true" >> $GITHUB_OUTPUT
+          else
+            echo "match=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Stop if not matching
+        if: steps.check.outputs.match == 'false'
+        run: echo "Issue does not match — skipping."
+
+      - name: Close issue
+        if: steps.check.outputs.match == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: "closed"
+            });
+
+      - name: Checkout repo
+        if: steps.check.outputs.match == 'true'
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Increment click counter
+        if: steps.check.outputs.match == 'true'
+        run: |
+          FILE="README.md"
+          CURRENT=$(grep -oP 'CLICKS\s*:\s*\K\d+' "$FILE")
+          NEXT=$((CURRENT + 1))
+          sed -i "s/CLICKS : $CURRENT/CLICKS : $NEXT/" "$FILE"
+          echo "Updated clicks from $CURRENT to $NEXT"
+
+      - name: Commit changes
+        if: steps.check.outputs.match == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "New click by ${{ github.actor }}"
+          git push
