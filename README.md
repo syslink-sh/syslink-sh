@@ -19,8 +19,8 @@ email: me@syslink.dev
 discord: syslink.sh
 
 # note
-if you wonder what [S] means, it means the repo has a static website, its used for me to know
-[B] Means its a web service, which means it has a backend or a database
+- if you wonder what [S] means, it means the repo has a static website, its used for me to know
+- [B] Means its a web service, which means it has a backend or a database
 
 
 # Click this button to register a click
