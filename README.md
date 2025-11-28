@@ -28,4 +28,4 @@ discord: syslink.sh
   <img src="https://e7.pngegg.com/pngimages/975/635/png-clipart-circle-design-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0-red-button.png" width="150">
 </a>
 
-CLICKS : 2
+CLICKS : 3
