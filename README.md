@@ -15,13 +15,8 @@ i code stuff sometimes. most of my projects are private cuz, idk, i just keep th
 most of them are private, so uh… you won't see much here. trust the process i guess, maybe i would make then public.
 
 ## contact
-email: me@syslink.dev
-discord: syslink.sh
-
-# note
-- if you wonder what [S] means, it means the repo has a static website, its used for me to know
-- [B] Means its a web service, which means it has a backend or a database
-
+- email: me@syslink.dev
+- discord: syslink.sh
 
 # Click this button to register a click
 <a href="https://github.com/syslink-sh/syslink-sh/issues/new?title=click&body=press+create+to+register+your+click+.+dont+modify+the+issue+name+otherwise+it+wont+register!">
