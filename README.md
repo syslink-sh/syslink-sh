@@ -1,26 +1,19 @@
-# hi, i'm syslink
+# Hello, I’m Syslink
 
-yea this is my github profile
+This is my GitHub profile.
 
-## about me
-i code stuff sometimes. most of my projects are private cuz, idk, i just keep them that way. i build random tools, web apps, bots, whatever i feel like.
+## About Me
+I am a software developer with a broad interest in building practical and experimental solutions. Most of my projects are currently private by choice, as I prefer to iterate and refine internally before making them public. My work spans a variety of tools, web applications, and automation projects.
 
-## what i do
-- mainly full-stack web stuff  
-- html, css, js, nodejs… the usual  
-- discord bots cuz why not  
-- sometimes security and pentest experiments 
+## What I Do
+- Full-stack web development  
+- HTML, CSS, JavaScript, and Node.js  
+- Discord bot development  
+- Occasional security and penetration testing experiments  
 
-## projects
-most of them are private, so uh… you won't see much here. trust the process i guess, maybe i would make then public.
+## Projects
+The majority of my projects are private at this time. Public repositories may be released in the future as they mature.
 
-## contact
-- email: me@syslink.dev
-- discord: syslink.sh
-
-# Click this button to register a click
-<a href="https://github.com/syslink-sh/syslink-sh/issues/new?title=click&body=press+create+to+register+your+click+.+dont+modify+the+issue+name+otherwise+it+wont+register!">
-  <img src="https://e7.pngegg.com/pngimages/975/635/png-clipart-circle-design-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0-red-button.png" width="150">
-</a>
-
-CLICKS : 3
+## Contact
+- Email: me@syslink.dev  
+- Discord: syslink.sh  
